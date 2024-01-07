@@ -82,10 +82,6 @@ input {
           flex-direction: column;
 }
 
-main {
-  padding-top: 105px;
-}
-
 .footer__email {
   padding: 100px 100px;
   background: url("../../images/footer/Photo_contact.png"), lightgray 50%;

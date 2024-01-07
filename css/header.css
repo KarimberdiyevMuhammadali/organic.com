@@ -76,10 +76,6 @@ input {
           flex-direction: column;
 }
 
-main {
-  padding-top: 105px;
-}
-
 header {
   position: fixed;
   width: 100%;
