@@ -7,3 +7,21 @@ $light__green-color:#EFF6F1;
 $light__black-color:#525C60;
 $light__pink-color:#F9F8F8;
 $yellow-color:#EFD372;
+
+.about__img{
+    img{
+        width: 100%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.about-us__btn{
+    margin-bottom: 20px !important;
+    display: inline-block;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
