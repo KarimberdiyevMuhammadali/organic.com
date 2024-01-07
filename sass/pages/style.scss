@@ -7,3 +7,15 @@ $light__green-color:#EFF6F1;
 $light__black-color:#525C60;
 $light__pink-color:#F9F8F8;
 $yellow-color:#EFD372;
+
+main
+{
+    @extend .flex-center;
+    height: 90vh;
+    background-color: $yellow-color;
+    h1
+    {
+        color: $green-color;
+
+    }
+}
