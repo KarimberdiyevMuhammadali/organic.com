@@ -36,6 +36,14 @@ input {
   padding-right: 20px;
 }
 
+.container2 {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .flex-center, .nav__logo, .nav__list, .card_search, .search, .card__size, .search__bx, .res-search__bx, .res-card__size {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,9 +87,9 @@ input {
 header {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 47;
   background-color: #fff;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .nav__logo h1 {
