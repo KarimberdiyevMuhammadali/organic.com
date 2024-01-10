@@ -25,3 +25,12 @@ $yellow-color:#EFD372;
     justify-content: center;
     display: inline-block;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
