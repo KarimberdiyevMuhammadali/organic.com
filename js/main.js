@@ -27,3 +27,35 @@ function openNavbar() {
     }
   }
   //navbar-shrink
+  // owl carousel
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      margin: 40,
+      padding: 40,
+      loop: true,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      // stagePadding: 70,
+      autoplayTimeout: 5000,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        650: {
+          items: 1,
+        },
+        1000: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+      },
+    });
+  });
+  // owl carousel
+
